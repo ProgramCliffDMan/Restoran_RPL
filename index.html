@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Warong Warem</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    
+    <section class="banner">
+        <h2>BOOK YOUR TABLE NOW</h2>
+        <div class="card-container">
+            <div class="card-img">
+                <!-- image here -->
+            </div>
+
+            <div class="card-content">
+                <h3>Reservation</h3>
+                <form id="reservationForm">
+                    <div class="form-row">
+                        <select name="days">
+                            <option value="day-select">Select Day</option>
+                            <option value="sunday">Sunday</option>
+                            <option value="monday">Monday</option>
+                            <option value="tuesday">Tuesday</option>
+                            <option value="wednesday">Wednesday</option>
+                            <option value="thursday">Thursday</option>
+                            <option value="friday">Friday</option>
+                            <option value="saturday">Saturday</option>
+                        </select>
+
+                        <select name="hours">
+                            <option value="hour-select">Select Hour</option>
+                            <option value="10">10:00</option>
+                            <option value="12">12:00</option>
+                            <option value="14">14:00</option>
+                            <option value="16">16:00</option>
+                            <option value="18">18:00</option>
+                            <option value="20">20:00</option>
+                            <option value="22">22:00</option>
+                        </select>
+                    </div>
+
+                    <div class="form-row">
+                        <input type="text" placeholder="Full Name">
+                        <input type="text" placeholder="Phone Number">
+                    </div>
+
+                    <div class="form-row">
+                        <input type="number" placeholder="How Many Persons?" min="1">
+                        <button type="button" onclick="proceedToNextPage()">BOOK TABLE</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="next-page" style="display: none;">
+        <h3>Enter Your Details</h3>
+        <form id="detailsForm">
+            <div class="form-row">
+                <input type="email" placeholder="Email" name="email" required>
+            </div>
+            <div class="form-row">
+                <input type="password" placeholder="Password" name="password" required>
+            </div>
+            <div class="form-row">
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+    </section>
+
+    <section id="summaryPage" style="display: none;">
+        <h3>Reservation Summary</h3>
+        <div id="summaryContent">
+            <!-- Summary content will be dynamically added here using JavaScript -->
+        </div>
+        <div class="form-row">
+            <button id="editReservation">Edit Reservation</button>
+            <button id="confirmReservation">Confirm Reservation</button>
+        </div>
+    </section>
+
+    <script src="main.js"></script>
+</body>
+</html>
