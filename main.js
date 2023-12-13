@@ -1,61 +1,52 @@
-function proceedToNextPage() {
-    // Hide the reservation section
-    document.querySelector('.banner').style.display = 'none';
+// script.js
+function redirectToReservationPage() {
+    // Mengarahkan ke halaman reservation-page.html
+    window.location.href = "reservation-page.html";
+}
+document.addEventListener('DOMContentLoaded', function () {
+    // Mendapatkan elemen-elemen tombol
+    var signUpButton = document.querySelector('.signup button');
+    var loginButton = document.querySelector('.login button');
 
-    // Show the next page section
-    document.querySelector('.next-page').style.display = 'flex';
+    // Menambahkan event listener untuk tombol "Sign Up"
+    signUpButton.addEventListener('click', function (event) {
+        event.preventDefault(); // Mencegah formulir dikirim (jika formulir ada)
+
+        // Lakukan logika signup di sini sesuai kebutuhan
+
+        // Pindah ke halaman reservation-page.html
+        redirectToReservationPage();
+    });
+
+    // Menambahkan event listener untuk tombol "Login"
+    loginButton.addEventListener('click', function (event) {
+        event.preventDefault(); // Mencegah formulir dikirim (jika formulir ada)
+
+        // Lakukan logika login di sini sesuai kebutuhan
+
+        // Pindah ke halaman reservation-page.html
+        redirectToReservationPage();
+    });
+});
+
+function proceedToNextPage() {
+    // Ambil nilai yang diperlukan dari formulir
+    var selectedDay = document.querySelector('select[name="days"]').value;
+    var selectedHour = document.querySelector('select[name="hours"]').value;
+    var fullName = document.querySelector('input[placeholder="Full Name"]').value;
+    var phoneNumber = document.querySelector('input[placeholder="Phone Number"]').value;
+    var numberOfPersons = document.querySelector('input[placeholder="How Many Persons?"]').value;
+
+    // Contoh validasi sederhana, pastikan semua nilai terisi
+    if (!selectedDay || !selectedHour || !fullName || !phoneNumber || !numberOfPersons) {
+        alert('Please fill in all fields before proceeding.');
+        return;
+    }
+
+    // Simpan data ke sesi lokal atau cookie jika diperlukan
+    // ...
+
+    // Arahkan pengguna ke halaman pemilihan meja
+    window.location.href = 'select-table-2.html';
 }
 
-document.getElementById('detailsForm').addEventListener('submit', function(event) {
-    event.preventDefault();
-
-    // Here you can handle the form submission, e.g., send data to the server
-    // For simplicity, we'll just show a console log
-    console.log('Details form submitted successfully!');
-});
-
-document.getElementById('reservationForm').addEventListener('submit', function(event) {
-    event.preventDefault(); // Prevent form submission
-
-    // Get values from form
-    const email = document.getElementById('email').value;
-    const password = document.getElementById('password').value;
-
-    // Perform validation and authentication as needed
-    // For simplicity, let's assume the validation is successful and move to the next page
-
-    // Hide the current page
-    document.querySelector('.banner').style.display = 'none';
-
-    // Show the summary page
-    document.getElementById('summaryPage').style.display = 'flex';
-
-    // Update the summary content (you can dynamically generate this based on reservation details)
-    const summaryContent = `
-        <p>Email: ${email}</p>
-        <p>Password: ${password}</p>
-        <!-- Add more reservation details here -->
-    `;
-    document.getElementById('summaryContent').innerHTML = summaryContent;
-});
-
-document.getElementById('editReservation').addEventListener('click', function() {
-    // Show the reservation form again
-    document.querySelector('.banner').style.display = 'flex';
-
-    // Hide the summary page
-    document.getElementById('summaryPage').style.display = 'none';
-});
-
-document.getElementById('confirmReservation').addEventListener('click', function() {
-    // Perform any actions needed to confirm the reservation
-    console.log('Reservation confirmed!'); // You can replace this with your confirmation logic
-});
-
-document.getElementById('detailsForm').addEventListener('submit', function(event) {
-    event.preventDefault(); // Prevent default form submission
-
-    // Here you can handle the form submission, e.g., send data to the server
-    // For simplicity, we'll just call proceedToNextPage
-    proceedToNextPage();
-});
