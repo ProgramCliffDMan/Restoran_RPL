@@ -1,0 +1,490 @@
+
+.box {
+    position: relative;
+    width: 3199px;
+    height: 946px;
+}
+
+.box .WAITERS {
+    position: fixed;
+    width: 3199px;
+    height: 946px;
+    top: 0;
+    left: 0;
+}
+
+.box .notes {
+    position: absolute;
+    width: 562px;
+    height: 332px;
+    top: 307px;
+    left: -11px;
+}
+
+.box .reports {
+    position: absolute;
+    width: 1194px;
+    height: 946px;
+    top: 0;
+    left: 2005px;
+}
+
+.box .table-choose-poopup {
+    position: absolute;
+    width: 823px;
+    height: 1080px;
+    top: -86px;
+    left: 768px;
+    transform: rotate(-90deg);
+}
+
+.box .overlap {
+    position: relative;
+    width: 824px;
+    height: 1081px;
+    top: -1px;
+    left: -1px;
+}
+
+.box .overlap-group {
+    position: absolute;
+    width: 824px;
+    height: 1081px;
+    top: 0;
+    left: 0;
+}
+
+.box .stable-table-row {
+    width: 1032px;
+    height: 62px;
+    gap: 20px;
+    padding: 0px 20px;
+    position: absolute;
+    top: 485px;
+    left: 178px;
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: transparent;
+    transform: rotate(90deg);
+    border-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(40.37, 40.37, 40.37)) 1;
+    display: flex;
+    align-items: center;
+}
+
+.box .stable-table-grid {
+    width: 789px;
+    justify-content: center;
+    gap: 10px;
+    position: relative;
+    align-self: stretch;
+    display: flex;
+    align-items: center;
+}
+
+.box .stable-table-cell {
+    width: 202px;
+    gap: 10px;
+    position: relative;
+    align-self: stretch;
+    display: flex;
+    align-items: center;
+}
+
+.box .text-wrapper {
+    position: relative;
+    flex: 1;
+    align-self: stretch;
+    margin-top: -1px;
+    font-family: "Segoe UI-Regular", Helvetica;
+    font-weight: 400;
+    color: #2b2b2b;
+    font-size: 13px;
+    letter-spacing: 0;
+    line-height: 19px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.box .frame {
+    position: relative;
+    width: 6px;
+    height: 2px;
+}
+
+.box .div-wrapper {
+    display: flex;
+    width: 208px;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    align-self: stretch;
+}
+
+.box .div {
+    display: flex;
+    width: 216px;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    align-self: stretch;
+}
+
+.box .stable-table-cell-2 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex: 1;
+    flex-grow: 1;
+    position: relative;
+    align-self: stretch;
+}
+
+.box .stable-table-cell-3 {
+    flex: 1;
+    flex-grow: 1;
+    position: relative;
+    align-self: stretch;
+}
+
+.box .group {
+    position: relative;
+    width: 147px;
+    height: 44px;
+}
+
+.box .overlap-group-wrapper {
+    width: 153px;
+    height: 44px;
+}
+
+.box .overlap-group-2 {
+    position: relative;
+    width: 147px;
+    height: 44px;
+    border-radius: 5px;
+    background: linear-gradient(180deg, rgb(0, 0, 0) 0%, rgb(40.37, 40.37, 40.37) 100%);
+}
+
+.box .text-wrapper-2 {
+    position: absolute;
+    height: 24px;
+    top: 8px;
+    left: 45px;
+    font-family: "Segoe UI-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 24px;
+    white-space: nowrap;
+}
+
+.box .stable-table-grid-wrapper {
+    left: 118px;
+    display: flex;
+    width: 1032px;
+    height: 62px;
+    align-items: center;
+    gap: 20px;
+    padding: 0px 20px;
+    position: absolute;
+    top: 485px;
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: transparent;
+    transform: rotate(90deg);
+    border-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(40.37, 40.37, 40.37)) 1;
+}
+
+.box .stable-table-grid-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    position: relative;
+    flex: 1;
+    align-self: stretch;
+    flex-grow: 1;
+}
+
+.box .stable-table-row-2 {
+    left: 58px;
+    display: flex;
+    width: 1032px;
+    height: 62px;
+    align-items: center;
+    gap: 20px;
+    padding: 0px 20px;
+    position: absolute;
+    top: 485px;
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: transparent;
+    transform: rotate(90deg);
+    border-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(40.37, 40.37, 40.37)) 1;
+}
+
+.box .stable-table-cell-4 {
+    display: flex;
+    width: 130px;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    align-self: stretch;
+}
+
+.box .stable-table-row-3 {
+    left: -2px;
+    display: flex;
+    width: 1032px;
+    height: 62px;
+    align-items: center;
+    gap: 20px;
+    padding: 0px 20px;
+    position: absolute;
+    top: 485px;
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: transparent;
+    transform: rotate(90deg);
+    border-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(40.37, 40.37, 40.37)) 1;
+}
+
+.box .stable-table-row-4 {
+    left: -62px;
+    display: flex;
+    width: 1032px;
+    height: 62px;
+    align-items: center;
+    gap: 20px;
+    padding: 0px 20px;
+    position: absolute;
+    top: 485px;
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: transparent;
+    transform: rotate(90deg);
+    border-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(40.37, 40.37, 40.37)) 1;
+}
+
+.box .stable-table-cell-5 {
+    display: flex;
+    width: 126px;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    align-self: stretch;
+}
+
+.box .stable-table-row-5 {
+    left: -123px;
+    display: flex;
+    width: 1032px;
+    height: 62px;
+    align-items: center;
+    gap: 20px;
+    padding: 0px 20px;
+    position: absolute;
+    top: 485px;
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: transparent;
+    transform: rotate(90deg);
+    border-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(40.37, 40.37, 40.37)) 1;
+}
+
+.box .stable-table-row-6 {
+    left: -183px;
+    display: flex;
+    width: 1032px;
+    height: 62px;
+    align-items: center;
+    gap: 20px;
+    padding: 0px 20px;
+    position: absolute;
+    top: 485px;
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: transparent;
+    transform: rotate(90deg);
+    border-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(40.37, 40.37, 40.37)) 1;
+}
+
+.box .stable-table-row-7 {
+    left: -243px;
+    display: flex;
+    width: 1032px;
+    height: 62px;
+    align-items: center;
+    gap: 20px;
+    padding: 0px 20px;
+    position: absolute;
+    top: 485px;
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: transparent;
+    transform: rotate(90deg);
+    border-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(40.37, 40.37, 40.37)) 1;
+}
+
+.box .stable-table-row-8 {
+    left: -304px;
+    display: flex;
+    width: 1032px;
+    height: 62px;
+    align-items: center;
+    gap: 20px;
+    padding: 0px 20px;
+    position: absolute;
+    top: 485px;
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: transparent;
+    transform: rotate(90deg);
+    border-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(40.37, 40.37, 40.37)) 1;
+}
+
+.box .stable-table-cell-6 {
+    display: flex;
+    width: 127px;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    align-self: stretch;
+}
+
+.box .group-wrapper {
+    display: flex;
+    width: 177px;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    align-self: stretch;
+}
+
+.box .stable-table-row-9 {
+    left: -364px;
+    display: flex;
+    width: 1032px;
+    height: 62px;
+    align-items: center;
+    gap: 20px;
+    padding: 0px 20px;
+    position: absolute;
+    top: 485px;
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: transparent;
+    transform: rotate(90deg);
+    border-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(40.37, 40.37, 40.37)) 1;
+}
+
+.box .stable-table-row-10 {
+    left: -424px;
+    display: flex;
+    width: 1032px;
+    height: 62px;
+    align-items: center;
+    gap: 20px;
+    padding: 0px 20px;
+    position: absolute;
+    top: 485px;
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: transparent;
+    transform: rotate(90deg);
+    border-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(40.37, 40.37, 40.37)) 1;
+}
+
+.box .stable-table-cell-7 {
+    display: flex;
+    width: 125px;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    align-self: stretch;
+}
+
+.box .stable-table-row-11 {
+    left: -485px;
+    display: flex;
+    width: 1032px;
+    height: 62px;
+    align-items: center;
+    gap: 20px;
+    padding: 0px 20px;
+    position: absolute;
+    top: 485px;
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: transparent;
+    transform: rotate(90deg);
+    border-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(40.37, 40.37, 40.37)) 1;
+}
+
+.box .stable-table-row-12 {
+    left: 238px;
+    display: flex;
+    width: 1032px;
+    height: 62px;
+    align-items: center;
+    gap: 20px;
+    padding: 0px 20px;
+    position: absolute;
+    top: 485px;
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: transparent;
+    transform: rotate(90deg);
+    border-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(40.37, 40.37, 40.37)) 1;
+}
+
+.box .rectangle {
+    height: 823px;
+    top: 130px;
+    left: -127px;
+    background-color: #ffffff;
+    position: absolute;
+    width: 1080px;
+    transform: rotate(90deg);
+}
+
+.box .overlap-wrapper {
+    position: absolute;
+    width: 783px;
+    height: 1030px;
+    top: 1px;
+    left: 1px;
+}
+
+.box .overlap-2 {
+    position: relative;
+    width: 785px;
+    height: 1032px;
+    top: -1px;
+    left: -1px;
+}
+
+.box .img {
+    height: 40px;
+    top: 521px;
+    left: 264px;
+    position: absolute;
+    width: 1080px;
+    transform: rotate(90deg);
+}
+
+.box .rectangle-2 {
+    position: absolute;
+    width: 194px;
+    height: 10px;
+    top: 1065px;
+    left: 560px;
+    border-radius: 10px;
+    transform: rotate(179.69deg);
+    background: linear-gradient(180deg, rgb(0, 0, 0) 0%, rgb(40.37, 40.37, 40.37) 100%);
+}

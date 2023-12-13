@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Reservation</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="reservation-style.css">
+</head>
+<body>
+    <section class="banner">
+        <h2>BOOK YOUR TABLE NOW</h2>
+        <div class="card-container">
+            <div class="card-img">
+                <!-- image here -->
+            </div>
+
+            <div class="card-content">
+                <h3>Reservation</h3>
+                <form id="reservationForm">
+                    <div class="form-row">
+                        <input type="date" name="tanggal">
+
+        
+                        <input type="time" name="waktu">
+
+                    </div>
+
+                    <div class="form-row">
+                        <input type="text" placeholder="Full Name">
+                        <input type="text" placeholder="Phone Number">
+                    </div>
+
+                    <div class="form-row">
+                        <input type="number" placeholder="How Many Persons?" min="1">
+                        <button type="button" onclick="proceedToNextPage()">BOOK TABLE</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <script src="main.js"></script>
+</body>
+</html>
